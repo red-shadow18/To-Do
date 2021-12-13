@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fbfbfb;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.check {
+  display: inline;
+  height: 200px;
+  width: 250px;
+}
+
+.heading {
+  border: 2px dashed red;
+  display: block;
+  font-size: 2rem;
+}
+
+.items {
+  /* padding: 0.5rem; */
+  max-width: 28rem;
+  margin-top: 2rem;
+  /* padding-right: 0.5rem; */
+  border: 0.1rem solid green;
+  border-radius: 0.4rem;
+  -webkit-box-shadow: inset 0 0.1rem 0.1rem rgb(0 0 0 / 8%);
+  box-shadow: inset 0 0.1rem 0.1rem rgb(0 0 0 / 8%);
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+input {
+  /* margin-left: 1rem;
+  margin-right: 1rem; */
+  max-width: 26rem;
+  height: 1.5rem;
+  padding: 2rem 1.2rem;
+  font-size: 1.8rem;
+  line-height: 0;
+
+  color: rgb(58, 57, 57);
+  background-color: #fff;
+
+  border: 0.1rem solid #ccc;
+  border-radius: 0.4rem;
+  -webkit-box-shadow: inset 0 0.1rem 0.1rem rgb(0 0 0 / 8%);
+  box-shadow: inset 0 0.1rem 0.1rem rgb(0 0 0 / 8%);
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.showitems {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.btn {
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 45px;
+  max-width: 160px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.btn:hover span {
+  display: none;
+}
+
+.btn:hover:before {
+  color: maroon;
+
+  content: "Delete All";
+}
+
+.fas:hover {
+  color: blue;
+}
+
+.fal:hover {
+  color: blue;
+}
+.allitems {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.eachitem {
+  background: #fff;
+  padding: 0rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.7rem;
+  margin-left: 1rem;
+  min-width: 10rem;
+  word-break: break-word;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eachitem:hover {
+  background: wheat;
+}
+
+.eachitem i {
+  align-content: right;
+}
+
+.btngrp {
+  letter-spacing: 0.5rem;
+}
